@@ -44,7 +44,7 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 let born = 1984;
 let today = 2017;
-let age = "Tim is " + today - born + " years old";
+let age = "Tim is " + (today - born) + " years old";
 // A:
 
 
@@ -73,7 +73,7 @@ let myNumber = 1
 let myString = "one";
 let myBoolean = true;
 // This one's a little tricky - think carefully about what makes a value "undefined"!
-let myUndefined
+let myUndefined;
 // A:
 
 
@@ -111,7 +111,7 @@ let c = (undefined == null);
 
 // 17.
 let d = (null == false);
-// A. false
+// A. true
 
 
 // 18.
@@ -175,7 +175,7 @@ if (false) {
 } else {
 	console.log("False!");
 }
-// A: "True!"
+// A: "False!"
 
 
 // 25.
@@ -184,7 +184,7 @@ if (-5 && 5) {
 } else {
 	console.log("False!");
 }
-// A: "False!"
+// A: "True1"
 
 
 // 26.
@@ -202,7 +202,7 @@ if ({}) {
 } else {
 	console.log("False!");
 }
-// A: "False!"
+// A: "True!"
 
 
 // 28.
